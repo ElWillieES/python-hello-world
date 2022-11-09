@@ -26,6 +26,19 @@ Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub St
 
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
 
+Si te interesa, tienes disponibles los siguientes [cursos gratuitos de Python en Edube - OpenEDG](https://edube.org/):
+
+* Python Essentials 1
+* Python Essentials 2
+* Python Advanced 1 – OOP
+* Python Advanced 2 – Best Practices and Standardization
+* Python Advanced 3 – GUI Programming
+* Python Advanced 4 – RESTful APIs
+* Python Advanced 5 – File Processing
+
+En mi Blog personal ([El Willie - The Geeks invaders](https://elwillie.es)) y en mi perfil de GitHub, encontrarás más información sobre mi, y sobre los contenidos de tecnología que comparto con la comunidad.
+
+[![Web](https://img.shields.io/badge/GitHub-ElWillieES-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/ElWillieES)
 
 # Git
 
