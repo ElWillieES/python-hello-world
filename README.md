@@ -1,5 +1,7 @@
 # Python Hello World
 
+[![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
+
 ## Introducción
 
 Un Hello World en un proyecto minimalista en cualquier lenguaje de programación o scripting que pretende hacer una sencilla demo de ejecución satisfactoria del código que muestra en la pantalla el texto "Hello World".
@@ -17,6 +19,12 @@ Este repo se ha creado para complementar el Post [Hello World con Python y PyCha
 ## Arquitectura de la Solución
 
 Se trata de una simple programa Python con un único fichero main.py que ejecuta el código que deseamos.
+
+## Otros detalles de interés
+
+Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub Star". Gracias !!! 
+
+[![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
 
 
 # Git
