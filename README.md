@@ -13,7 +13,7 @@ En este caso el lenguaje es Python y utilizaremos PyCharm como IDE.
 
 El objetivo de este proyecto es principalmente didáctico, un ejemplo básico de proyecto **Python con PyCharm**, con su integración con Git (incluyendo su .gitignore, estructura de ramas, etc.), gestión de paquetes o librerías (Virtual Environments), ejecución y depuración de código, dockerización y ejecución en local con Docker y Docker Compose, etc.
 
-Este repo se ha creado para complementar el Post [Hello World con Python y PyCharm](https://elwillie.es/2022/11/08/hello-world-con-python-y-pycharm/) del Blog [El Willie - The Geeks invaders](https://elwillie.es)
+Este repo se ha creado para complementar el Post [Hello World con Python y PyCharm](https://elwillie.es/2022/11/09/hello-world-con-python-y-pycharm/) del Blog [El Willie - The Geeks invaders](https://elwillie.es)
 
 
 ## Arquitectura de la Solución
@@ -26,7 +26,7 @@ Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub St
 
 [![GitHub Star](https://img.shields.io/badge/GitHub-Nominar_a_star-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://stars.github.com/nominate/)
 
-Si te interesa, tienes disponibles los siguientes [cursos gratuitos de Python en Edube - OpenEDG](https://edube.org/):
+Si te interesa aprender Python, tienes disponibles los siguientes [cursos gratuitos de Python en Edube - OpenEDG](https://edube.org/):
 
 * Python Essentials 1
 * Python Essentials 2
@@ -35,6 +35,8 @@ Si te interesa, tienes disponibles los siguientes [cursos gratuitos de Python en
 * Python Advanced 3 – GUI Programming
 * Python Advanced 4 – RESTful APIs
 * Python Advanced 5 – File Processing
+
+Otro recurso muy interesante es [Real Python](https://realpython.com/), donde podrás encontrar tutoriales, baterías de preguntas para ponerte a prueba (quizzes), etc.
 
 En mi Blog personal ([El Willie - The Geeks invaders](https://elwillie.es)) y en mi perfil de GitHub, encontrarás más información sobre mi, y sobre los contenidos de tecnología que comparto con la comunidad.
 
