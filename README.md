@@ -11,9 +11,11 @@ En este caso el lenguaje es Python y utilizaremos PyCharm como IDE.
 
 ## Objetivo
 
-El objetivo de este proyecto es principalmente didáctico, un ejemplo básico de proyecto **Python con PyCharm**, con su integración con Git (incluyendo su .gitignore, estructura de ramas, etc.), gestión de paquetes o librerías (Virtual Environments), ejecución y depuración de código, dockerización y ejecución en local con Docker y Docker Compose, etc.
+El objetivo de este proyecto es principalmente didáctico, un ejemplo básico de proyecto **Python con PyCharm**, con su integración con Git (incluyendo su .gitignore, estructura de ramas, etc.), gestión de paquetes o librerías (Virtual Environments), ejecución y depuración de código, dockerización y ejecución en local con Docker, Docker Compose y Kubernetes (MiniKube), etc.
 
 Este repo se ha creado para complementar el Post [Hello World con Python y PyCharm](https://elwillie.es/2022/11/09/hello-world-con-python-y-pycharm/) del Blog [El Willie - The Geeks invaders](https://elwillie.es)
+
+Para la ejecución sobre MiniKube te puede interesar leer el Post [Introducción a MiniKube e instalación en Windows 11](https://elwillie.es/2022/11/15/kubernetes-introduccion-a-minikube-e-instalacion-en-windows-11/).
 
 
 ## Arquitectura de la Solución
@@ -176,6 +178,33 @@ El siguiente comando ejecutado en la raíz del Proyecto, muestra cómo ejecutar 
 
 ```shell
 docker-compose -f docker-compose.yml up --build -d
+```
+
+
+# Kubernetes - Ejecución en local (MiniKube)
+
+Se puede ejecutar la aplicación en local si tienes instalado MiniKube.
+
+Los siguientes comandos ejecutados en la raíz del Proyecto, muestran cómo tagear la Imagen Docker para subirla al Registry local de MiniKube.
+
+```shell
+docker tag python-hello-world localhost:5000/python-hello-world
+docker push localhost:5000/python-hello-world
+```
+
+Realizado esto, en la ventana Terminal de PyCharm, podemos ejecutar los siguientes comandos para aplicar los manifiestos en nuestro Cluster de MiniKube (namespace y Job), y consultar el Log de ejecución del Job que acabamos de crear y ejecutar (la salida del Log, será igual a cuando lo ejecutamos en Docker o directamente en PyCharm).
+
+```shell
+cd kube
+kubectl apply -f ns-hello-world.yml
+kubectl apply -f job-python-hello-world.yml
+kubectl logs job/python-hello-world -n hello-world
+```
+
+Al finalizar podemos eliminar el namespace de Kubernetes, para eliminar todos los recursos y dejar la casa limpia.
+
+```shell
+kubectl delete ns hello-world
 ```
 
 
