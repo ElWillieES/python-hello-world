@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: python-hello-world
+  namespace: hello-world
+spec:
+  template:
+    spec:
+      containers:
+      - name: python-hello-world
+        image: localhost:5000/python-hello-world
+      restartPolicy: Never
+
