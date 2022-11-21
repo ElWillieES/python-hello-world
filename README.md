@@ -20,7 +20,7 @@ Para la ejecución sobre MiniKube te puede interesar leer el Post [Introducción
 
 ## Arquitectura de la Solución
 
-Se trata de una simple programa Python con un único fichero main.py que ejecuta el código que deseamos.
+Se trata de un simple programa Python con un único fichero main.py que ejecuta el código que deseamos.
 
 ## Otros detalles de interés
 
@@ -167,10 +167,17 @@ Se puede ejecutar la aplicación en local con Docker.
 Los siguientes comandos ejecutados en la raíz del Proyecto, muestran cómo crear una imagen en local, listar las imágenes que tenemos disponible sen local, y cómo ejecutar un contenedor con nuestra imagen.
 
 ```shell
-docker build -t python-hello-world:0.1.0 .
+docker build -t python-hello-world .
 docker images
-docker run --rm python-hello-world:0.1.0
+docker run --rm python-hello-world
 ```
+
+Podemos arrancar una sesión interativa de Bash sobre un Contendor con nuestra imagen Docker, para de este modo, poder analizar mejor incidencias y problemas que nos puedan surgir.
+
+```shell
+docker run --rm -it python-hello-world /bin/bash
+```
+
 
 ## Con Docker Compose
 
